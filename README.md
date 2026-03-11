@@ -18,7 +18,7 @@ You can simply consume the provider from the Terraform registry from the followi
 terraform {
   required_providers {
     azurenoopsutils = {
-      source = "azurenoops/azurenoopsutils"
+      source = "POps-Rox/azurenoopsutils"
       version = "1.0.0"
     }
   }
