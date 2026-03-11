@@ -1,0 +1,22 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: tf-provider-azutils
+  description: Custom Terraform provider with Azure NoOps utility functions
+  annotations:
+    github.com/project-slug: POps-Rox/tf-provider-azutils
+    backstage.io/techdocs-ref: dir:.
+  tags:
+    - terraform
+    - terraform-provider
+    - azure
+    - platform-ops
+  links:
+    - url: https://github.com/POps-Rox/tf-provider-azutils
+      title: GitHub Repository
+      icon: github
+spec:
+  type: terraform-provider
+  owner: platform-ops-team
+  lifecycle: production
+  system: pops-rox-platform
