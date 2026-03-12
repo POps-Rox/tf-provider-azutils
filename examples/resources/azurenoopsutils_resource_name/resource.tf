@@ -1,3 +1,11 @@
+terraform {
+  required_providers {
+    azurenoopsutils = {
+      source = "azurenoops/azurenoopsutils"
+    }
+  }
+}
+
 #Storage account test
 resource "azurenoopsutils_resource_name" "classic_st" {
   name          = "log2"
