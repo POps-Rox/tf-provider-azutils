@@ -1,12 +1,12 @@
 terraform {
   required_providers {
-    azurenoops = {
+    azurenoopsutils = {
       source = "azurenoops/azurenoopsutils"
     }
   }
 }
 
-provider "azurenoops" {}
+provider "azurenoopsutils" {}
 
 #Storage account test
 resource "azurenoopsutils_resource_name" "azurerm_cognitive_account" {
